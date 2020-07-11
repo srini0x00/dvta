@@ -1,0 +1,10 @@
+C:\Users\srini0x00\Downloads\dvta-master\dvta-master\DVTA\DBAccess\bin\Debug\DBAccess.dll
+C:\Users\srini0x00\Downloads\dvta-master\dvta-master\DVTA\DBAccess\bin\Debug\DBAccess.pdb
+C:\Users\srini0x00\Downloads\dvta-master\dvta-master\DVTA\DBAccess\obj\Debug\DBAccess.csprojResolveAssemblyReference.cache
+C:\Users\srini0x00\Downloads\dvta-master\dvta-master\DVTA\DBAccess\obj\Debug\DBAccess.dll
+C:\Users\srini0x00\Downloads\dvta-master\dvta-master\DVTA\DBAccess\obj\Debug\DBAccess.pdb
+C:\DVTA\DBAccess\bin\Debug\DBAccess.dll
+C:\DVTA\DBAccess\bin\Debug\DBAccess.pdb
+C:\DVTA\DBAccess\obj\Debug\DBAccess.csprojResolveAssemblyReference.cache
+C:\DVTA\DBAccess\obj\Debug\DBAccess.dll
+C:\DVTA\DBAccess\obj\Debug\DBAccess.pdb
