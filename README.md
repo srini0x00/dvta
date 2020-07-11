@@ -24,7 +24,6 @@ Usage:
 Queries used in the video:
 
 QUERY TO CREATE "USERS" TABLE:
--------------------------------
 
 CREATE TABLE "users" (
     "id" INT IDENTITY(0,1) NOT NULL,
@@ -37,7 +36,6 @@ CREATE TABLE "users" (
 
 
 QUERY TO INSERT DATA INTO "USERS" TABLE:
------------------------------------------
 
 INSERT INTO dbo.users (username, password, email, isadmin)
 VALUES
@@ -47,7 +45,6 @@ VALUES
 
 
 QUERY TO CREATE "EXPENSES" TABLE:
----------------------------------
 
 CREATE TABLE "expenses" (
     "id" INT IDENTITY(0,1) NOT NULL,
