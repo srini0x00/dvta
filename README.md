@@ -21,40 +21,40 @@ Usage:
 1. Clone the project and navigate to DVTA\bin\Release\ directory to get the compiled binary, which is ready to play with
 2. Set up SQL Server and FTP Server - instructions shown here https://youtu.be/rx8mtI1HU5c
 
-Queries used in the video:
+    Queries used in the video:
 
-QUERY TO CREATE "USERS" TABLE:
+    QUERY TO CREATE "USERS" TABLE:
 
-CREATE TABLE "users" (
-    "id" INT IDENTITY(0,1) NOT NULL,
-    "username" VARCHAR(100) NOT NULL,
-    "password" VARCHAR(100) NOT NULL,
-    "email" VARCHAR(100) NULL DEFAULT NULL,
-    "isadmin" INT NULL DEFAULT '0',
-    PRIMARY KEY ("id")
-)
-
-
-QUERY TO INSERT DATA INTO "USERS" TABLE:
-
-INSERT INTO dbo.users (username, password, email, isadmin)
-VALUES
-('admin','admin123','admin@damnvulnerablethickclientapp.com',1),
-('rebecca','rebecca','rebecca@test.com',0),
-('raymond','raymond','raymond@test.com',0);
+    CREATE TABLE "users" (
+        "id" INT IDENTITY(0,1) NOT NULL,
+        "username" VARCHAR(100) NOT NULL,
+        "password" VARCHAR(100) NOT NULL,
+        "email" VARCHAR(100) NULL DEFAULT NULL,
+        "isadmin" INT NULL DEFAULT '0',
+        PRIMARY KEY ("id")
+    )
 
 
-QUERY TO CREATE "EXPENSES" TABLE:
+    QUERY TO INSERT DATA INTO "USERS" TABLE:
 
-CREATE TABLE "expenses" (
-    "id" INT IDENTITY(0,1) NOT NULL,
-    "email" VARCHAR(100) NOT NULL,
-    "item" VARCHAR(100) NOT NULL,
-    "price" VARCHAR(100) NOT NULL,
-    "date" VARCHAR(100) NOT NULL,
-    "time" VARCHAR(100) NULL DEFAULT NULL,
-    PRIMARY KEY ("id")
-)
+    INSERT INTO dbo.users (username, password, email, isadmin)
+    VALUES
+    ('admin','admin123','admin@damnvulnerablethickclientapp.com',1),
+    ('rebecca','rebecca','rebecca@test.com',0),
+    ('raymond','raymond','raymond@test.com',0);
+
+
+    QUERY TO CREATE "EXPENSES" TABLE:
+
+    CREATE TABLE "expenses" (
+        "id" INT IDENTITY(0,1) NOT NULL,
+        "email" VARCHAR(100) NOT NULL,
+        "item" VARCHAR(100) NOT NULL,
+        "price" VARCHAR(100) NOT NULL,
+        "date" VARCHAR(100) NOT NULL,
+        "time" VARCHAR(100) NULL DEFAULT NULL,
+        PRIMARY KEY ("id")
+    )
 
 
 3. Configure the binary to communicate with SQL Server and FTP Server - Instructions shown here https://youtu.be/IBdk2uOessc
