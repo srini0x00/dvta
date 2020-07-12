@@ -21,7 +21,7 @@ Requires .NET version 4.5
 
 Usage:
 ------
-1. Clone the project and navigate to DVTA\bin\Release\ directory to get the compiled binary, which is ready to play with. Alternatively, you can compile the source.
+1. Get the compiled binary from releases. Alternatively, clone the project and compile from the source.
 2. Set up SQL Server and FTP Server - instructions shown here https://youtu.be/rx8mtI1HU5c
 
     Queries used in the video:
