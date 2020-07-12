@@ -18,7 +18,7 @@ Requires .NET version 4.5
 
 Usage:
 ------
-1. Clone the project and navigate to DVTA\bin\Release\ directory to get the compiled binary, which is ready to play with
+1. Clone the project and navigate to DVTA\bin\Release\ directory to get the compiled binary, which is ready to play with. Alternatively, you can compile the source.
 2. Set up SQL Server and FTP Server - instructions shown here https://youtu.be/rx8mtI1HU5c
 
     Queries used in the video:
@@ -57,5 +57,5 @@ Usage:
     )
 
 
-3. Configure the binary to communicate with SQL Server and FTP Server - Instructions shown here https://youtu.be/IBdk2uOessc
+3. Configure the client application to communicate with SQL Server and FTP Server - Instructions shown here https://youtu.be/IBdk2uOessc
 4. Explore and exploit
