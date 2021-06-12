@@ -3,6 +3,8 @@ DVTA 2.0
 
 DVTA is a Vulnerable Thick Client Application developed in C# .NET
 
+Most of the vulnerabilities that were built into DVTA were found during my real world pentests.
+
 Some of the vulnerabilities covered in this Application.
 -------------------------------------------------------
     Insecure local data storage
